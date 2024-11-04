@@ -48,13 +48,13 @@ Two classification models are trained and evaluated:
 
 1. Model A (Baseline):
    ```bash
-   python classify.py --data_path /path/to/original/128x128/dataset
+   python classify.py
    ```
    - Trains and tests on original downscaled 128x128 images
 
 2. Model B (SRGAN-enhanced):
    ```bash
-   python classify.py --data_path /path/to/generated/128x128/dataset
+   python classify.py
    ```
    - Trains and tests on SRGAN-generated 128x128 images
 

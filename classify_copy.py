@@ -204,4 +204,4 @@ metrics = evaluate_model(model)
 torch.save({
     'model_state_dict': model.state_dict(),
     'metrics': metrics
-}, 'resnet50_classifier_generated.pth')
+}, 'resnet50_classifier_original.pth')

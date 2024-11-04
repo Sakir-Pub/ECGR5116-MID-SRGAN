@@ -70,6 +70,23 @@ Two classification models are trained and evaluated:
 └── classify.py          # Classification model training script
 ```
 
+## Results
+
+### Model Performance Comparison
+
+| Metric        | Model A (Baseline) | Model B (SRGAN-enhanced) |
+|---------------|-------------------|------------------------|
+| Accuracy      | 79.44%            | 63.33%                |
+| F1 Score      | 0.7797            | 0.5750                |
+| Precision     | 0.8362            | 0.7314                |
+| Recall        | 0.7944            | 0.6333                |
+| Mean AUC-ROC  | 0.9776            | 0.9292                |
+
+### Key Findings
+
+- **Model A (Baseline)** achieves better performance across all metrics when using the original downscaled 128x128 images.
+- **Model B (SRGAN-enhanced)** shows lower performance metrics, suggesting that the SRGAN-generated images may lose some critical diagnostic features during the super-resolution process
+
 <!-- ## Requirements
 
 (Add your project dependencies here)

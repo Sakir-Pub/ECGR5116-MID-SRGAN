@@ -40,7 +40,7 @@ The project uses retinal OCT images from [Kaggle's Retinal OCT Dataset](https://
    This script:
    - Uses the saved generator model
    - Creates 128x128 enhanced images from 32x32 input images
-   - Saves the generated dataset for classification
+   - Saves the generated dataset for classification. My generated dataset is availble in this [Google Drive Link](https://drive.google.com/drive/folders/1awr_ksiUD3tZjJWXOSjXerAyutS7-PGA?usp=sharing)
 
 ### 3. Classification Models
 

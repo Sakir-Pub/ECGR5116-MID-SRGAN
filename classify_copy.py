@@ -39,7 +39,7 @@ data_transforms = {
 }
 
 # Create datasets
-data_dir = '/data1/Sakir/OCT_generated'  # Replace with your data path
+data_dir = '/data1/Sakir/OCT_128x128'  # Replace with your data path
 image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x), data_transforms[x])
                  for x in ['train', 'valid', 'test']}
 

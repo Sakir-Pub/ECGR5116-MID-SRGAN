@@ -8,10 +8,10 @@ config.TRAIN.lr_init = 1e-4
 config.TRAIN.beta1 = 0.9
 
 ## initialize G
-config.TRAIN.n_epoch_init = 1
+config.TRAIN.n_epoch_init = 5
 
 ## adversarial learning (SRGAN)
-config.TRAIN.n_epoch = 1
+config.TRAIN.n_epoch = 150
 config.TRAIN.lr_decay = 0.1
 config.TRAIN.decay_every = int(config.TRAIN.n_epoch / 2)
 

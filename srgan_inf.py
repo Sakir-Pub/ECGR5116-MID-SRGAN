@@ -75,8 +75,11 @@ def process_folder(input_folder, output_folder, model_path):
 
 if __name__ == "__main__":
     # Example usage
-    input_folder = "/data1/Sakir/OCT_32x32/test/CNV"  # Folder containing 32x32 images
-    output_folder = "/home/anabil/Development/PhD Courses/ECGR 5116/Mid/output_images"  # Folder where 128x128 images will be saved
-    model_path = "/home/anabil/Development/PhD Courses/ECGR 5116/Mid/models/g_1.pth"  # Path to your trained generator model
+
+    
+
+    input_folder = "/data1/Sakir/OCT_32x32/train/NORMAL"  # Folder containing 32x32 images
+    output_folder = "/data1/Sakir/OCT_generated/train/NORMAL"  # Folder where 128x128 images will be saved
+    model_path = "/home/anabil/Development/PhD Courses/ECGR 5116/Mid/models/g_56.pth"  # Path to your trained generator model
     
     process_folder(input_folder, output_folder, model_path)
